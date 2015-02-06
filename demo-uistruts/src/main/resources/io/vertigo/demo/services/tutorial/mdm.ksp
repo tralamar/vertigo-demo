@@ -1,0 +1,21 @@
+package io.vertigo.demo.services.tutorial
+
+alter DtDefinition DT_COMMUNE  {
+ 	sortField : "ID_INSEE"
+ 	displayField : "COMMUNE"
+}
+
+alter DtDefinition DT_TUTO_OBJECT_TYPE  {
+ 	sortField : "LIBELLE"
+ 	displayField : "LIBELLE"
+}
+
+alter  DtDefinition DT_TUTO_OBJECT_ETAT  {
+ 	sortField : "LIBELLE"
+ 	displayField : "LIBELLE"
+}
+
+alter  DtDefinition DT_FAMILLE  {
+ 	sortField : "LIBELLE"
+ 	displayField : "LIBELLE"
+}

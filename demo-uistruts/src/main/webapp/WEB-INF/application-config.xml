@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application-config>
+  	<config name="admin.user">
+  		<property name="nbRowPage" value="7"/>    	
+  	</config>
+  	
+  	<config name="admin.upload">
+  		<property name="dir" value="c:/dev/upload/"/>
+  		<property name="buffer_size" value="8192"/>  		
+  		<property name="size_limit" value="5242880"/>  
+  		<property name="mime_types" value="*.jpg;*.png;*.gif;*.html;*.htm;*.txt"/>  	
+  	</config>
+  	
+  	<config name="app">
+  		<property name="version" value="2.0.0"/>    	
+  	</config>
+</application-config>
